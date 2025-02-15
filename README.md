@@ -77,11 +77,11 @@ Example Response:
 
 
 ### 🔹 **Frontend Interface **
-<img src="shot1.png" width="500"/>
-<img src="shot2.png" width="500"/>
-<img src="shot3.png" width="500"/>
-<img src="shot4.png" width="500"/>
-<img src="shot5.png" width="500"/>
+<img src="shot1.png" width="800"/>
+<img src="shot2.png" width="800"/>
+<img src="shot3.png" width="800"/>
+<img src="shot4.png" width="800"/>
+<img src="shot5.png" width="800"/>
 
 
 ---
