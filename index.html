@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobPulse 2025 - AI-Powered Job Discovery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body class="light-mode">
+    <div class="page-wrapper">
+        <header>
+            <nav>
+                <div class="logo">
+                    <i class="fas fa-atom"></i> JobPulse 2025
+                </div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button id="darkModeToggle" class="mode-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </nav>
+        </header>
+
+        <main>
+            <section id="hero" class="glass-morphism">
+                <h1>Discover Your Future</h1>
+                <p>AI-Powered Job Discovery for the Next Generation</p>
+                <div class="search-container">
+                    <input type="text" id="urlInput" placeholder="Enter career page URL">
+                    <button id="submitBtn">
+                        <i class="fas fa-search"></i> Analyze Jobs
+                    </button>
+                </div>
+            </section>
+
+            <section id="results">
+                <h2>Job Opportunities</h2>
+                <div id="result" class="job-grid">
+                    <!-- Job results will be displayed here -->
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About JobPulse 2025</h3>
+                    <p>Revolutionizing job search with cutting-edge AI technology.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 JobPulse. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <div id="loading" class="loading-overlay">
+        <div class="spinner"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

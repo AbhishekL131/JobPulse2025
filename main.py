@@ -1,12 +1,24 @@
 from fastapi import FastAPI
+import os
+from fastapi.middleware.cors import CORSMiddleware
 from langchain_groq import ChatGroq
 from langchain_community.document_loaders import WebBaseLoader
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
-from all_keys import groq_api_key
+
+groq_api_key = os.getenv("GROQ_API_KEY")
 
 # Initialize FastAPI
 app = FastAPI()
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allows all origins
+    allow_credentials=True,
+    allow_methods=["*"],  # Allows all methods
+    allow_headers=["*"],  # Allows all headers
+)
 
 # Initialize Groq LLM
 llm = ChatGroq(
@@ -23,7 +35,7 @@ prompt_extract = PromptTemplate.from_template(
         ### INSTRUCTION:
         The scraped text is from the career's page of a website.
         Your job is to extract the job postings and return them in JSON format containing the 
-        following keys: role, experience, skills and description.
+        following keys: company , location , role, experience, skills and description.
         Only return the valid JSON.
         ### VALID JSON (NO PREAMBLE):    
         """
