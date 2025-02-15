@@ -75,11 +75,14 @@ Example Response:
 
 ## 📸 Screenshots
 
-### 🔹 **Job Extraction API in Action**
-![Job Extraction API](screenshots/api_response.png)
 
-### 🔹 **Frontend Interface (if applicable)**
-![Frontend UI](screenshots/frontend_ui.png)
+### 🔹 **Frontend Interface **
+<img src="shot1.png" width="360"/>
+<img src="shot2.png" width="360"/>
+<img src="shot3.png" width="360"/>
+<img src="shot4.png" width="360"/>
+<img src="shot5.png" width="360"/>
+
 
 ---
 
@@ -110,12 +113,6 @@ We welcome contributions! To contribute:
 3. Commit your changes: `git commit -m "Added new feature"`
 4. Push the branch: `git push origin feature-branch`
 5. Open a Pull Request 🔥
-
----
-
-## 📞 Contact
-📧 **Email**: support@jobpulse.com  
-🌐 **Website**: [JobPulse.com](https://jobpulse.com)
 
 ---
 
