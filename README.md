@@ -118,3 +118,6 @@ We welcome contributions! To contribute:
 
 Thank you for using **JobPulse**! 🚀 Happy Coding! 🎉
 
+
+Developer - Abhishek Arjun Londhe
+
